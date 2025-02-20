@@ -18,4 +18,102 @@
             padding: 20px;
             text-align: center;
             font-size: 24px;
-            font-weight:
+            font-weight: bold;
+        }
+        .hero {
+            background: url('https://source.unsplash.com/1600x900/?technology,marketing') no-repeat center center/cover;
+            height: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+            font-size: 28px;
+            font-weight: bold;
+            padding: 20px;
+        }
+        .container {
+            max-width: 900px;
+            margin: 30px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #1e3a8a;
+            text-align: center;
+        }
+        .services {
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        .service-box {
+            width: 30%;
+            background: #e0e7ff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+        }
+        .service-box img {
+            width: 50px;
+            margin-bottom: 10px;
+        }
+        footer {
+            background: #1e3a8a;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+        @media (max-width: 768px) {
+            .service-box {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        Emprenials Funnel 🚀 - Automatización de Marketing
+    </header>
+
+    <div class="hero">
+        Automatizamos tu funnel de marketing para maximizar conversiones.
+    </div>
+
+    <div class="container">
+        <h2>¿Qué hacemos?</h2>
+        <p>En <b>Emprenials Funnel</b> nos especializamos en la creación, optimización y automatización de embudos de marketing digital para potenciar tu negocio.</p>
+
+        <div class="services">
+            <div class="service-box">
+                <img src="https://img.icons8.com/ios-filled/50/000000/marketing.png" alt="Marketing">
+                <h3>Automatización</h3>
+                <p>Implementamos funnels automatizados para mejorar tu conversión.</p>
+            </div>
+            <div class="service-box">
+                <img src="https://img.icons8.com/ios-filled/50/000000/data.png" alt="Data Analysis">
+                <h3>Optimización</h3>
+                <p>Analizamos métricas y ajustamos estrategias en tiempo real.</p>
+            </div>
+            <div class="service-box">
+                <img src="https://img.icons8.com/ios-filled/50/000000/customer-insight.png" alt="Client Strategy">
+                <h3>Personalización</h3>
+                <p>Adaptamos cada funnel a las necesidades de tu negocio.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2025 Emprenials Funnel | Todos los derechos reservados
+    </footer>
+
+</body>
+</html>
+
